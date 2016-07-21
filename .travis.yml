@@ -5,4 +5,5 @@ cache:
   - ./
 
 script:
- - ./.travis/script.sh
+ - if [ ! -e ./dir/date.txt ]; then echo "Creating date.txt"; date > ./dir/.date.txt; fi
+ - cate ./dir/date.txt
