@@ -2,8 +2,8 @@ sudo: required
 
 cache:
   directories:
-  - ./
+  - ./dir/
 
 script:
- - if [ ! -e ./dir/date.txt ]; then echo "Creating date.txt"; date > ./dir/.date.txt; fi
+ - if [ ! -e ./dir/date.txt ]; then echo "Creating date.txt"; mkdir -p dir; date > ./dir/.date.txt; fi
  - cat ./dir/date.txt
