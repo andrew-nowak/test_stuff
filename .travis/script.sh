@@ -1,5 +1,7 @@
 #!/bin/bash
 
-date > date.txt
+if [ ! -e date.txt ]; then
+date > ./dir/date.txt;
+fi
 
-cat date.txt
+cat ./dir/date.txt
