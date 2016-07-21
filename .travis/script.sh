@@ -2,4 +2,4 @@
 
 date > date.txt
 
-cat date
+cat date.txt
