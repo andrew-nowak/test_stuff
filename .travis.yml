@@ -1,4 +1,8 @@
 sudo: required
 
+cache:
+  directories:
+  - ./
+
 script:
  - ./.travis/script.sh
