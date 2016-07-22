@@ -8,3 +8,11 @@ popd
 
 ls -al
 ls -al samtools*/*
+
+git clone --branch 0.5.10-mt_fixes.2 --depth 1 https://github.com/wtsi-npg/bwa.git bwa
+
+pushd bwa
+make
+ls -al
+popd
+
