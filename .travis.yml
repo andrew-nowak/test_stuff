@@ -5,4 +5,5 @@ cache:
   - ./dir/
 
 script:
-  - ./.travis/install.sh
+#  - ./.travis/install.sh
+  - ./.travis/test_script.sh
