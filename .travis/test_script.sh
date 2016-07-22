@@ -7,3 +7,6 @@ cat sout
 
 echo "serr : "
 cat serr
+
+echo "My shell is: "
+echo $SH
