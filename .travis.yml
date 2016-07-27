@@ -5,5 +5,4 @@ cache:
   - ./dir/
 
 script:
-#  - ./.travis/install.sh
-  - ./.travis/test_script.sh
+  - echo $MACHTYPE
