@@ -6,3 +6,4 @@ cache:
 
 script:
   - echo $MACHTYPE
+  - sudo apt-get update
