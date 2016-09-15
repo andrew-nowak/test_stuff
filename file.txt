@@ -1,3 +1,4 @@
 add a line
-another line
-final line
+another (modified) line
+inserted line
+deleted part of a line
