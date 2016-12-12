@@ -1,4 +1,1 @@
-add a line
-another (modified) line
-inserted line
-deleted part of a line
+edit 2
