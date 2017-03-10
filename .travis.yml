@@ -1,12 +1,8 @@
-language: ruby
-sudo: required
+language: node_js
+node_js:
+  - "6"
 
-cache:
-  directories:
-  - ./dir/
+sudo: false
 
 script:
-  - curl --version
-  - curl --help
-  - echo $MACHTYPE
-  - sudo apt-get update
+  - compgen -c
