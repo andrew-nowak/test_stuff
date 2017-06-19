@@ -4,5 +4,14 @@ node_js:
 
 sudo: false
 
+addons:
+  apt:
+    packages:
+    - libjansson-dev
+    - libevent-dev
+
+
 script:
   - node --version
+  - apt-cache show libjansson-dev
+  - apt-cache show libevent-dev
