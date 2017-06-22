@@ -1,17 +1,9 @@
-language: node_js
-node_js:
-  - "6"
+language: c
 
-sudo: false
-
-addons:
-  apt:
-    packages:
-    - libjansson-dev
-    - libevent-dev
-
+sudo: required
 
 script:
   - node --version
-  - apt-cache show libjansson-dev
-  - apt-cache show libevent-dev
+  - python --version
+  - python2 --version
+  - python3 --version
