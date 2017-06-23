@@ -1,11 +1,19 @@
 language: c
 
-dist: trusty
+matrix:
+    include:
+     - os: linux
+       dist: precise
+     - os: linux
+       dist: trusty
 
 sudo: required
 
 script:
-  - node --version
-  - python --version
-  - python2 --version
-  - python3 --version
+  - node --version || true
+  - python --version || true
+  - pip --version || true
+  - python2 --version || true
+  - pip2 --version || true
+  - python3 --version || true
+  - pip3 --version || true
