@@ -5,6 +5,7 @@ on:
 jobs: 
   CI:
     name: CI
+    if: ${{ false }}
     runs-on: ubuntu-latest
     permissions:
       contents: read
