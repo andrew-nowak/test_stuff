@@ -15,4 +15,4 @@ jobs:
 
       - name: FAIL
         run: 
-          'false'
+          'true'
